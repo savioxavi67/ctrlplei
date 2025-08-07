@@ -1,0 +1,11 @@
+img[src = "img/eye-of-rah-meme--1x1.webp 090609593"]{
+    border-radius: 100%;
+}
+
+img[src = "img/URETHRA!.jpg"]{
+    border-radius: 75%;
+}
+
+a[href *= "youtube"]{
+    color:blue;
+}
