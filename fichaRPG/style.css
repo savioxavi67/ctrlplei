@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: azure;
+    font-size: 20px;
+}
+
+.topo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container-topo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 150px;
+}
+
+.container-topo>div{
+    padding: 10px;
+}
+
+
+.container-topo>div p{
+    font-size: 20px;
+}
+
+.container-topo>div input{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
